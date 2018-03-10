@@ -1,0 +1,13 @@
+--- a/Makefile	2018-03-07 20:28:30.145907000 -0500
++++ b/Makefile	2018-03-07 21:32:48.239594000 -0500
+@@ -62,8 +60,8 @@
+ 		droid-fonts-ttf>0:x11-fonts/droid-fonts-ttf
+
+ ONLY_FOR_ARCHS=	amd64 i386
+-USES=		bison cpe desktop-file-utils execinfo jpeg ninja perl5 \
+-		pkgconfig python:2,build shebangfix tar:xz
++USES=		bison cpe desktop-file-utils jpeg ninja perl5 \
++		pkgconfig python:2.7,build shebangfix tar:xz
+
+ CPE_VENDOR=	google
+ CPE_PRODUCT=	chrome
